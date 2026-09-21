@@ -25,14 +25,6 @@ ODS_COLORS = {
     16: "#00689D", 17: "#19486A",
 }
 
-ODS_EMOJIS = {
-    1: "🏠", 2: "🌾", 3: "❤️", 4: "📚", 5: "⚖️", 6: "💧", 7: "⚡", 8: "💼",
-    9: "🏭", 10: "🤝", 11: "🏙️", 12: "♻️", 13: "🌍", 14: "🐟", 15: "🌳",
-    16: "🕊️", 17: "🌐",
-}
-
-
 def describir_ods(numero) -> str:
-    """Devuelve una cadena legible del tipo 'ODS 7 - Energia asequible...'."""
     numero = int(numero)
     return f"ODS {numero} - {ODS_LABELS.get(numero, 'Objetivo desconocido')}"
