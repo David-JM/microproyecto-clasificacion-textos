@@ -1,4 +1,4 @@
-# Clasificador de Textos ODS 🌍
+# Clasificador de Textos ODS
 
 Aplicación web en **Streamlit** que clasifica un texto libre dentro de los
 **Objetivos de Desarrollo Sostenible (ODS)** de la Agenda 2030 de la ONU.
@@ -18,7 +18,7 @@ Aplicación web en **Streamlit** que clasifica un texto libre dentro de los
 │   ├── model_controller.py         # Carga del .joblib + lógica de predicción
 └── resources/
     └── models/
-        ├── ods_pipeline.joblib     # ← Modelo serializado (0.6 MB)
+        ├── ods_pipeline.joblib     # Modelo serializado (0.6 MB)
 ```
 
 ## Ejecución local
