@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent
 sys.path.append(str(BASE_DIR))
 
 from src.ods_labels import ODS_COLORS, ODS_LABELS
-from src.predictor import (cargar_modelo, predecir_con_probabilidades)
+from src.model_controller import (cargar_modelo, predecir_con_probabilidades)
 
 st.set_page_config(
     page_title="Clasificador de Textos ODS",
