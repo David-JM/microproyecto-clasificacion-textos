@@ -35,3 +35,7 @@ streamlit run streamlit_app.py
 ```
 
 La app queda disponible en `http://localhost:8501`.
+
+## Ejecución en la nube
+
+Enlace de la aplicacion ya desplegada en la nube: [Clasificador textos ODS](https://microproyecto-clasificacion-textos.streamlit.app)
